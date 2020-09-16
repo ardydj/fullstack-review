@@ -14,7 +14,6 @@ let Repo = mongoose.model('Repo', repoSchema);
 // const helloWorld = new Repo({id: 4444});
 
 let save = (repo) => {
-  // TODO: Your code here
 
   repo.save((err, repo) => {
     if (err) {
